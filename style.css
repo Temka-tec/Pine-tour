@@ -1,4 +1,3 @@
-/* ===== Base ===== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,7 +25,6 @@ body {
   align-items: center;
 }
 
-/* ===== HERO ===== */
 .hero {
   width: 100%;
   min-height: 100vh;
@@ -92,7 +90,6 @@ body {
   flex: 0 0 auto;
 }
 
-/* Titles responsive */
 .titles p:nth-child(1) {
   font-family: "Bebas Neue", sans-serif;
   font-size: clamp(36px, 6vw, 88px);
@@ -128,7 +125,6 @@ body {
     top: 16px;
   }
 
-  /* утсан дээр menu багасгах */
   .menu p:nth-child(2),
   .menu p:nth-child(3) {
     display: none;
@@ -139,7 +135,6 @@ body {
   }
 }
 
-/* ===== CARDS ===== */
 .cardcontainer {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 275px));
@@ -234,7 +229,6 @@ body {
   }
 }
 
-/* ===== MAP ===== */
 .map {
   width: 100%;
   min-height: 100vh;
@@ -402,7 +396,6 @@ body {
   display: block;
 }
 
-/* Tablet/phone: pin+hover image-үүдийг унтраана (hover байдаггүй тул) */
 @media (max-width: 1024px) {
   .maptitle {
     padding-top: 120px;
@@ -417,7 +410,6 @@ body {
   }
 }
 
-/* ===== PRICING ===== */
 .pricing {
   width: 100%;
   min-height: 100vh;
@@ -576,7 +568,6 @@ h6 {
   align-items: center;
 }
 
-/* ===== SOCIALS ===== */
 .socials {
   padding: 80px 16px;
   display: flex;
