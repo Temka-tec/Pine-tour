@@ -1,28 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pinetour 1</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- Fonts (single request) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,115 +14,147 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
-    <div class="hero center">
+    <!-- HERO -->
+    <section class="hero">
       <div class="navbar">
-        <img src="./logo 1.png" />
-        <div class="menu">
+        <img src="./logo%201.png" alt="Pinetour logo" class="brand" />
+
+        <nav class="menu">
           <p>Home</p>
           <p>About</p>
           <p>Contacts</p>
-          <img src="./Vector.png" />
-        </div>
+          <img src="./Vector.png" alt="Menu icon" />
+        </nav>
+
         <div class="lang">EN</div>
       </div>
-      <div class="titles">
-        <p>Pure Magic</p>
-        <p>Awaits!</p>
-        <p>2025</p>
+
+      <div class="hero-inner center">
+        <div class="titles">
+          <p>Pure Magic</p>
+          <p>Awaits!</p>
+          <p>2025</p>
+        </div>
       </div>
-    </div>
-    <div class="cardcontainer">
-      <div class="card">
-        <p>Terkhiin tsagaan lake</p>
-      </div>
-      <div class="card">
-        <p>Amarbayasgalant monastery</p>
-      </div>
-      <div class="card">
-        <p>Khuvsgul lake</p>
-      </div>
-      <div class="card">
-        <p>Khorgiin togoo</p>
-      </div>
-    </div>
-    <div class="map">
+    </section>
+
+    <!-- CARDS -->
+    <section class="cardcontainer">
+      <div class="card"><p>Terkhiin tsagaan lake</p></div>
+      <div class="card"><p>Amarbayasgalant monastery</p></div>
+      <div class="card"><p>Khuvsgul lake</p></div>
+      <div class="card"><p>Khorgiin togoo</p></div>
+    </section>
+
+    <!-- MAP -->
+    <section class="map">
       <div class="maptitle">
         <p>Destination of Our Agency</p>
         <p>Pack Your Bags And Get Ready</p>
       </div>
+
       <div class="mapcontainer">
+        <!-- Cards -->
         <div class="mapcard mapcard_sukhbaatar">
           <div>
             <p class="mapcard_title">Sukhbaatar square</p>
             <div class="maploc">
-              <img src="./Icon Container 2.png" class="locpin" />
+              <img src="./Icon%20Container%202.png" class="locpin" alt="loc" />
               <p class="mapcard_location">Ulaanbator</p>
             </div>
           </div>
           <div class="day">DAY 1</div>
         </div>
+
         <div class="mapcard mapcard_amarbayas">
           <div>
             <p class="mapcard_title">Amarbayasgalant monastery</p>
             <div class="maploc">
-              <img src="./Icon Container 2.png" class="locpin" />
+              <img src="./Icon%20Container%202.png" class="locpin" alt="loc" />
               <p class="mapcard_location">Bulgan</p>
             </div>
           </div>
           <div class="day">DAY 2</div>
         </div>
+
         <div class="mapcard mapcard_khorgo">
           <div>
             <p class="mapcard_title">Khorgiin togoo</p>
             <div class="maploc">
-              <img src="./Icon Container 2.png" class="locpin" />
+              <img src="./Icon%20Container%202.png" class="locpin" alt="loc" />
               <p class="mapcard_location">Arkhangai</p>
             </div>
           </div>
           <div class="day">DAY 3</div>
         </div>
+
         <div class="mapcard mapcard_terkh">
           <div>
             <p class="mapcard_title">Terkhiin tsagaan lake</p>
             <div class="maploc">
-              <img src="./Icon Container 2.png" class="locpin" />
+              <img src="./Icon%20Container%202.png" class="locpin" alt="loc" />
               <p class="mapcard_location">Arkhangai</p>
             </div>
           </div>
           <div class="day">DAY 4</div>
         </div>
+
         <div class="mapcard mapcard_khuvsgul">
           <div>
             <p class="mapcard_title">Khuvsgul lake</p>
             <div class="maploc">
-              <img src="./Icon Container 2.png" class="locpin" />
+              <img src="./Icon%20Container%202.png" class="locpin" alt="loc" />
               <p class="mapcard_location">Khuvsgul</p>
             </div>
           </div>
           <div class="day">DAY 5</div>
         </div>
-        <img src="./MapPin 1.png" class="place_pin sukhbaatar" />
-        <img src="./MapPin 1.png" class="place_pin amarbayas" />
-        <img src="./MapPin 1.png" class="place_pin khorgo" />
-        <img src="./MapPin 1.png" class="place_pin terkh" />
-        <img src="./MapPin 1.png" class="place_pin khuvsgul" />
-        <img src="./Frame 176.png" class="place_img sukhbaatar" />
-        <img src="./Frame 177.png" class="place_img amarbayas" />
-        <img src="./11111.png" class="place_img khorgo" />
-        <img src="./Frame 178.png" class="place_img terkh" />
-        <img src="./Frame 179.png" class="place_img khuvsgul" />
+
+        <!-- Pins -->
+        <img src="./MapPin%201.png" class="place_pin sukhbaatar" alt="pin" />
+        <img src="./MapPin%201.png" class="place_pin amarbayas" alt="pin" />
+        <img src="./MapPin%201.png" class="place_pin khorgo" alt="pin" />
+        <img src="./MapPin%201.png" class="place_pin terkh" alt="pin" />
+        <img src="./MapPin%201.png" class="place_pin khuvsgul" alt="pin" />
+
+        <!-- Hover images -->
+        <img
+          src="./Frame%20176.png"
+          class="place_img sukhbaatar"
+          alt="Sukhbaatar"
+        />
+        <img
+          src="./Frame%20177.png"
+          class="place_img amarbayas"
+          alt="Amarbayasgalant"
+        />
+        <img src="./11111.png" class="place_img khorgo" alt="Khorgiin togoo" />
+        <img
+          src="./Frame%20178.png"
+          class="place_img terkh"
+          alt="Terkhiin tsagaan lake"
+        />
+        <img
+          src="./Frame%20179.png"
+          class="place_img khuvsgul"
+          alt="Khuvsgul lake"
+        />
       </div>
-    </div>
-    <div class="pricing">
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing">
       <div class="pricetitle">
         <p>Pricing of Our Agency</p>
         <p>Choose A Package That's Right For You</p>
       </div>
+
       <div class="pricecontainer">
         <div class="pricecard">
           <div class="top">
-            <img src="./IconButton 1.png" />
+            <img src="./IconButton%201.png" alt="icon" />
             <p>Budget Package</p>
           </div>
           <div class="mid">
@@ -147,30 +163,29 @@
             <div>
               <h6>Includes:</h6>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>Group transportations (shared van/bus)</span>
               </div>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>Standard accommodation (yurt or guesthouse)</span>
               </div>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>Guided lake tour</span>
               </div>
               <div class="includes">
-                <img src="./check.png" class="check" />
-                <span>1 meal per day(breakfast)</span>
+                <img src="./check.png" class="check" alt="check" />
+                <span>1 meal per day (breakfast)</span>
               </div>
             </div>
           </div>
-          <div class="bot">
-            <p>Select package</p>
-          </div>
+          <div class="bot"><p>Select package</p></div>
         </div>
+
         <div class="pricecard">
           <div class="top">
-            <img src="./IconButton 1.png" />
+            <img src="./IconButton%201.png" alt="icon" />
             <p>Standard Package</p>
           </div>
           <div class="mid">
@@ -182,30 +197,29 @@
             <div>
               <h6>Includes:</h6>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>Comfortable transportation (mini-bus)</span>
               </div>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>Mid-range accommodation (private yurt or lodge)</span>
               </div>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>Guided lake tour + nearby hiking</span>
               </div>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>2 meals per day (breakfast and dinner)</span>
               </div>
             </div>
           </div>
-          <div class="bot">
-            <p>Select package</p>
-          </div>
+          <div class="bot"><p>Select package</p></div>
         </div>
+
         <div class="pricecard">
           <div class="top">
-            <img src="./IconButton 1.png" />
+            <img src="./IconButton%201.png" alt="icon" />
             <p>Luxury Package</p>
           </div>
           <div class="mid">
@@ -214,41 +228,40 @@
             <div>
               <h6>Includes:</h6>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>Private transportation (SUV)</span>
               </div>
               <div class="includes">
-                <img src="./check.png" class="check" />
-                <span>Luxury accomodation (lakefront lodge)</span>
+                <img src="./check.png" class="check" alt="check" />
+                <span>Luxury accommodation (lakefront lodge)</span>
               </div>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>Guided tour (lake + reindeer herder experience)</span>
               </div>
               <div class="includes">
-                <img src="./check.png" class="check" />
+                <img src="./check.png" class="check" alt="check" />
                 <span>All meals included (local cuisine)</span>
               </div>
             </div>
           </div>
-          <div class="bot">
-            <p>Select package</p>
-          </div>
+          <div class="bot"><p>Select package</p></div>
         </div>
       </div>
-      <div class="socials">
+
+      <footer class="socials">
         <div class="socialscontainer">
           <div class="accounts">
-            <img src="./Facebook Icon.png" />
+            <img src="./Facebook%20Icon.png" alt="fb" />
             <p>Facebook</p>
           </div>
           <div class="accounts">
-            <img src="./Instagram Icon.png" />
+            <img src="./Instagram%20Icon.png" alt="ig" />
             <p>Instagram</p>
           </div>
-          <img src="./logo 1.png" class="logo" />
+          <img src="./logo%201.png" class="logo" alt="Pinetour logo" />
         </div>
-      </div>
-    </div>
+      </footer>
+    </section>
   </body>
 </html>
