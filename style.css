@@ -340,14 +340,12 @@ body {
   flex: 0 0 auto;
 }
 
-/* Pins */
 .place_pin {
   height: 34px;
   width: 34px;
   position: absolute;
 }
 
-/* Pin positions (desktop only) */
 .sukhbaatar {
   left: 1165px;
   top: 445px;
@@ -369,7 +367,6 @@ body {
   top: 230px;
 }
 
-/* Hover images */
 .place_img {
   height: 245px;
   width: 245px;
@@ -379,7 +376,6 @@ body {
   z-index: 5;
 }
 
-/* ✅ FIX: Hover дээр зураг гаргах (өмнө нь pin-г харуулах гээд байсан) */
 .mapcard:nth-child(1):hover ~ .place_img.sukhbaatar {
   display: block;
 }
@@ -605,7 +601,7 @@ h6 {
 }
 
 .logo {
-  margin-left: 0; /* ✅ removed hard px */
+  margin-left: 0;
   width: 110px;
 }
 
